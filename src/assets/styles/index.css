@@ -1,3 +1,32 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root{
+    --bg-color: #24353E ;
+    --btn-color: #5C93B1 ;
+    --dark-color : #000000 ;
+    --white-color : #ffffff ;
+    --hover-color : #dddddd ;
+    --menu-color : #3A5E72 ;
+}
+body{
+    font-family: "Poppins", serif;
+    background-color: var(--bg-color);
+}
+header nav ul li>a.active{
+    color: var(--white-color);
+}
+@media (max-width:1023px) {
+    header nav ul.active{
+        position:absolute;
+        top: 70px;
+        right: 10px;
+        max-width: 250px;
+        width: 100%;
+        padding: 20px;
+        background-color: var(--menu-color);
+        border-radius: 6px;
+        text-align: center;
+    }
+}
