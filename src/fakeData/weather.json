@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "country": "Egypt",
+    "degree": "35°C",
+    "windSpeed": "11 km",
+    "day": "Tuesday",
+    "time": "19:52",
+    "status": "cloudy",
+    "image": "/sun.png"
+  },
+  {
+    "id": 2,
+    "country": "Italy",
+    "degree": "35°C",
+    "windSpeed": "11 km",
+    "day": "Tuesday",
+    "time": "19:52",
+    "status": "cloudy",
+    "image": "/Group-1.png"
+  },
+  {
+    "id": 3,
+    "country": "Rome",
+    "degree": "35°C",
+    "windSpeed": "11 km",
+    "day": "Tuesday",
+    "time": "19:52",
+    "status": "cloudy",
+    "image": "/Group 3.png"
+  }
+]
