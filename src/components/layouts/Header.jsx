@@ -22,10 +22,10 @@ function Header() {
                 <NavLink onClick={hiddenMenu} to="/contact" >Contact us</NavLink>
               </li>
             </ul>
-            <div className="flex items-center gap-4">
+            <div className="flex items-center gap-2.5">
               <Link to="/signup" className="p-[8px_16px] rounded-[6px] text-base bg-[--menu-color] text-[--white-color]">Sign up</Link>
               <button onClick={()=> setToggleMenu(!toggleMenu)} className={`lg:hidden ${toggleMenu ? "fa-xmark" : "fa-bars"}  text-[--white-color] text-xl`}>
-                <i className="fa-solid"></i>
+                <i className="fa-solid w-[25px]"></i>
               </button>
             </div>
           </nav>
