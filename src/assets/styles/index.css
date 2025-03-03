@@ -3,16 +3,24 @@
 @tailwind utilities;
 
 :root{
-    --bg-color: #24353E ;
-    --btn-color: #5C93B1 ;
+    --bg-color: #1B262C ;
     --dark-color : #000000 ;
     --white-color : #ffffff ;
-    --hover-color : #dddddd ;
     --menu-color : #3A5E72 ;
+    --btn-color: #5C93B1 ;
+    --hover-color : #dddddd ;
 }
 body{
     font-family: "Poppins", serif;
     background-color: var(--bg-color);
+}
+.container{
+    margin: 0 auto;
+    padding: 0 12px;
+}
+input{
+    outline: none;
+    border: none;
 }
 header nav ul li>a.active{
     color: var(--white-color);
@@ -22,11 +30,16 @@ header nav ul li>a.active{
         position:absolute;
         top: 70px;
         right: 10px;
+        z-index: 9;
         max-width: 250px;
         width: 100%;
         padding: 20px;
-        background-color: var(--menu-color);
         border-radius: 6px;
         text-align: center;
+        background-color: var(--menu-color);
+    }
+    header nav ul li a{
+        display: block;
+        margin: 14px 0;
     }
 }

@@ -7,8 +7,8 @@ function Header() {
       setToggleMenu(false)
     }
     return (
-      <header className="sticky top-0 py-6 bg-[--bg-color]">
-        <div className="container relative flex justify-between items-center mx-auto px-3">
+      <header className="sticky top-0 z-[10] py-6 bg-[--bg-color]">
+        <div className="container relative flex justify-between items-center">
           <Link to="/" className="logo text-[clamp(22px,_5vw,_26px)] font-semibold text-[--white-color] ">Dark Weather</Link>
           <nav className="flex items-center gap-5  text-[--white-color]">
             <ul className={`${toggleMenu ? "active" : "hidden"} lg:flex items-center gap-5 text-lg text-[--hover-color]`}>
