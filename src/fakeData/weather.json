@@ -7,7 +7,7 @@
     "day": "Tuesday",
     "time": "19:52",
     "status": "cloudy",
-    "image": "/images/cloudy.png"
+    "image": "/images/cloudy.webp"
   },
   {
     "id": 2,
@@ -17,7 +17,7 @@
     "day": "sunday",
     "time": "16:52",
     "status": "sunny",
-    "image": "/images/sunny.png"
+    "image": "/images/sunny.webp"
   },
   {
     "id": 3,
@@ -27,6 +27,6 @@
     "day": "saturday",
     "time": "17:52",
     "status": "rainy",
-    "image": "/images/rainy.png"
+    "image": "/images/rainy.webp"
   }
 ]
