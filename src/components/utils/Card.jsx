@@ -4,7 +4,7 @@ function Card( {weatherStatus}){
 
     return (
         <>
-            <div className="flex flex-col items-center gap-3 py-[20px] px-[40px] rounded-[20px] bg-[#24353E] text-white">
+            <div className="flex flex-col items-center gap-3 py-[20px] px-[40px] rounded-[20px] bg-[--secondary-clr] text-white">
                 <div className="flex items-center min-h-[270px]"><img src={image} alt={status} className="w-[220px]"/></div>
                 <div className="flex flex-col gap-3">
                     <h3 className="text-[clamp(28px,_5vw,_40px)]"><span className="font-bold">{country}  </span><span className="font-semibold">{degree}</span></h3>
